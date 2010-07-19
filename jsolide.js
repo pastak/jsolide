@@ -291,23 +291,3 @@ var JSolide={
 		$("#main").append(footer);
 	}
 }
-
-/*
- * jQuery Extentions
- */
-
-jQuery.slide=jQuery.fn.slide=function(val){
-	if(!val){
-		var val=1000;
-	}
-	jQuery.slide.temp=this;
-	$.timer(val,function(timer){
-		jQuery.slide.temp.css({display:"none"});
-		timer.stop();
-	});
-	this.css({position:"absolute"}).animate({
-		left:"-"+$("window").width()
-	},val).removeClass("currentslide").next().show().css({position:"absolute",left:$("#main").width()*2}).animate({
-		right:-$("#main").width()
-	},val).addClass("currentslide");
-}
