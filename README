@@ -8,6 +8,7 @@ It generates html for presentation from json file.
 
 **files in directory
 index.html - sample html file
+ - RequestQuery: data - json filepath
 jsolide.js - main javascript file
 style.css - main stylesheet file
 test.json - sample json file.
