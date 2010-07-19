@@ -1,0 +1,48 @@
+{
+"meta":{
+		"title":"JSONでスライドを作る",
+		"author":[
+			"Shuto Morii",
+			"pastak@hacobu.org",
+			"http://pastak.cosmio.net"
+		],
+		"template":"like_keynote",
+		"all_effect":"fade",
+		"footer":"time"
+		
+	},
+"slides":[
+		{
+			"type":"list",
+			"effect":"fade",
+			"h1":"ここがサブタイトル",
+			"text":[
+			"JSON形式でテキストを受け取って整形します",
+			"[http://google.com:ぐーぐるへのリンク]",
+			"[http://google.com]"
+			]
+		},
+		{
+			"type":"img",
+			"h1":"画像中心のスライド",
+			"img":"http://desmond.yfrog.com/Himg15/scaled.php?tn=0&server=15&filename=2qs.jpg&xsize=640&ysize=640"
+			
+		},
+		{
+			"type":"code",
+			"h1":"ソースコードも",
+			"code":[
+				"document.getElementById('hoge');",
+				"'abc'.match(/hoge/);"
+			]
+		},
+		{
+			"type":"list",
+			"h1":"text",
+			"text":[
+				"aa",
+				"bbbb"
+			]
+		}
+	]
+}
