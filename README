@@ -1,0 +1,22 @@
+//*****************
+JSolide.js
+made by Pasta-K
+*****************//
+
+this is javascript library for presentation.
+It generates html for presentation from json file.
+
+**files in directory
+index.html - sample html file
+jsolide.js - main javascript file
+style.css - main stylesheet file
+test.json - sample json file.
+google-prettify - files for google code prettify
+jquery-1.4.2.js - jQuery js file
+jquery_timer.js - jQuery pluggin
+shortcut.js - library for setting keyboad shortcut
+
+
+this library is using google-code-pretiffy(http://code.google.com/p/google-code-prettify/)
+,shortcut.js(http://www.openjs.com/scripts/events/keyboard_shortcuts/)
+and jQuery1.4.2(http://jquery.com/) with jQuery Plugin, jquery_timer.
