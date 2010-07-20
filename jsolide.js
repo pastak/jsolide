@@ -128,11 +128,13 @@ var JSolide={
 		document.body.style.overflow = "hidden";
 		this.getJSON();
 		shortcut.add("Right",this.Go2Next);
+		shortcut.add("k",this.Go2Next);
 		shortcut.add("Enter",this.Go2Next);
 		shortcut.add("Return",this.Go2Next);
 		shortcut.add("Space",this.Go2Next);
 		shortcut.add("Backspace",this.Go2Prev);
 		shortcut.add("Left",this.Go2Prev);
+		shortcut.add("j",this.Go2Prev);
 	},
 	convertSlide:function(){
 		var titleslide=document.createElement("div");
