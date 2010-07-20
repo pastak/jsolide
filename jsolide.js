@@ -119,6 +119,10 @@ var JSolide={
 			var page=1;
 		}
 		this.jsonpath=location.search.replace("?data=","");
+		if(!this.jsonpath){
+			this.jsonpath=prompt("input jsonfile path?","");
+			location.search=("?data="+this.jsonpath);
+		}
 		location.hash=("#page_"+page);
 		this.currentslide=page-1;
 		document.body.style.overflow = "hidden";
